@@ -1,0 +1,65 @@
+<html>
+<head>
+    <title>Transportation</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+</head>
+<body>
+<div class="container">
+    <h1> Transportation</h1>
+    <div class = "col-md-6 col-xs-6">
+          <form id = "information">
+                <label for="from-city">From</label>
+                <select class = "form-control" id="from-city">
+                    <option value="minsk">Minsk</option>
+                    <option value="brest">Brest</option>
+                    <option value="grodno">Grodno</option>
+                    <option value="vitebsk">Vitebsk</option>
+                    <option value="mogilev">Mogilev</option>
+                    <option value="gomel">Gomel</option>
+                </select>
+
+                <label for="to-city">To</label>
+                <select class = "form-control" id="to-city">
+                    <option value="minsk">Minsk</option>
+                    <option value="brest">Brest</option>
+                    <option value="grodno">Grodno</option>
+                    <option value="vitebsk">Vitebsk</option>
+                    <option value="mogilev">Mogilev</option>
+                    <option value="gomel">Gomel</option>
+                </select>
+
+                <div class ='new-packages'>
+                    <label for = 'package'>№ of packages</label>
+                    <input type = 'text' class="form-control" id ='package'>
+                </div>
+
+                <div class ='new-weight'>
+                    <label for = 'weight'>Weight, kg</label>
+                    <input type = 'text' class="form-control" id ='weight'>
+                </div>
+
+                <div class ='new-data'>
+                    <label for = 'data'>How many days for delivery</label>
+                    <input type = 'text' class="form-control" id ='data'>
+                </div>
+
+              <div>
+                  <button id = "rates" type="submit" class="btn btn-primary" >See rate</button>
+              </div>
+            </form>
+    </div>
+    <div class = "col-md-6 col-xs-6">
+        <div class="result">
+
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
+
+
